@@ -1,3 +1,4 @@
+//print the details of student marks card
 #include <iostream>
 using namespace std;
 

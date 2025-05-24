@@ -1,3 +1,4 @@
+//calulate the 5 subject marks total and average
 #include <iostream>
 int main()
 {

@@ -1,3 +1,4 @@
+//print the details of student
 #include<iostream>
 int main()
 {
