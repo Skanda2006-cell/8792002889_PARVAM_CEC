@@ -2,13 +2,13 @@
 using namespace std;
 int main() 
 {
-    float a, b;
+    int a, b;
     cout << "Enter first number: ";
     cin >> a;
     cout << "Enter second number: ";
     cin >> b;
      a=(a^b);
-     b=(a^b);
+     b=(b^a);
      a=(a^b);
     cout<< "After swapping a=" <<a <<"\n";
     cout<< "After swapping b=" <<b <<"\n";
