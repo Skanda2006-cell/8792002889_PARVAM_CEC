@@ -16,7 +16,6 @@ int main()
             cin >> matrix1[i][j];
         }
     }
-    
     cout << "Enter elements of second matrix:\n";
     for(int i = 0; i < r; i++) 
     {
