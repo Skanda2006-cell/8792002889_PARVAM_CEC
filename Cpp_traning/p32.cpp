@@ -2,7 +2,7 @@
 using namespace std;
 class Account 
 {
-public:
+private:
 float salary = 60000;
 };
 class Programmer: public Account 
