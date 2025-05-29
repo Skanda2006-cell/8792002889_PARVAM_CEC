@@ -63,8 +63,6 @@ public:
 int main() {
     Manager manager("John Smith", 1001, 5000.0, 1500.0);
     Developer developer("Alice Johnson", 1002, 4000.0, 800.0);
-
-   
     manager.display();
     developer.display();
     return 0;
