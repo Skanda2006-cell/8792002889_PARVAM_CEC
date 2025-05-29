@@ -1,0 +1,68 @@
+1. Shape Area Calculator Using Inheritance:
+===========================================
+Create a base class named "Shape"
+Include a method named calculateArea() that outputs a general message like:
+"Area not defined for generic shape."
+
+2. Create the following derived classes:
+Circle:
+=======
+Data member(private): radius
+Override calculateArea() to compute area using π × radius²
+
+Rectangle:
+==========
+Data members(private): length, width
+Override calculateArea() to compute area using length × width
+
+Triangle:
+=========
+Data members(private): base, height
+Override calculateArea() to compute area using 0.5 × base × height
+
+
+3. Constructor(public):
+Each derived class must include a constructor to initialize its data members.
+
+4. In the main() function:
+Create one object of each shape.
+Call their calculateArea() method to print the area.
+Employee Salary System Using Inheritance:
+=========================================
+1. Define a base class named "Employee":
+
+Attributes:
+name (string)
+id (int)
+baseSalary (float)
+
+Constructor(protected):
+=======================
+* to initialize the instance variables.
+2
+Functions(protected):
+calculateSalary() → prints base salary only.
+display() → prints name, id, and salary (by calling calculateSalary()).
+
+2. Create a derived class "Manager":
+Additional attribute(private): bonus (float)
+Constructor:
+============
+Create Constructor and call the Parent Constructor by passing parameters and initialize the remaining attributes.
+
+Override calculateSalary() → salary = baseSalary + bonus
+Override display() → prints name, id, and total salary
+
+3. Create a derived class "Developer":
+Additional attribute(private): overtimePay (float)
+
+Constructor:
+============
+Create Constructor and call the Parent Constructor by passing parameters and initialize the remaining attributes.
+
+Override calculateSalary() → salary = baseSalary + overtimePay
+Override display() → prints name, id, and total salary
+
+4. In the main() function:
+Create one Manager and one Developer object using hardcoded values.
+Call their respective display() methods to show full details and computed salaries.
