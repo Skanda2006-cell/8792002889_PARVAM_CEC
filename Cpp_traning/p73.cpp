@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    ofstream Myfile("hello.txt");
+    ofstream Myfile("E:\\parvam\\8792002889_PARVAM_CEC\\Cpp_traning\\hello.txt");
     Myfile << "Hello, World!" << endl;
     Myfile.close();
     return 0;
