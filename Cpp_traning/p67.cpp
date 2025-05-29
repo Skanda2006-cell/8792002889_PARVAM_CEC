@@ -66,8 +66,6 @@ int main() {
 
    
     manager.display();
-    cout << "---------------------" << endl;
     developer.display();
-
     return 0;
 }
