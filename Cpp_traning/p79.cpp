@@ -1,0 +1,31 @@
+//  emirp.cpp
+//  Created by MAHADEV APPU  on 30/05/25.
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,i,ctr=0;
+    cout<<"Enter any number:"<<endl;
+    cin>>n;
+    for(i=2;i<n;i++)
+    {
+        if(n%i==0)
+        {
+            ctr++;
+            break;
+        }
+       
+        cout<<ctr<<endl;
+}
+    if(ctr>0)
+    {
+        cout<<"Not a Prime\n";
+        
+    }
+    else
+    {
+        cout<<"it is a prime\n";
+    }
+
+    return 0;
+}
